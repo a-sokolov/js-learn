@@ -2,7 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//import { writeConsole } from './utils/utils.js';
+import { createObject } from "./utils/classes";
+
 function App() {
+  // writeConsole('Anatoly');
+  createObject();
   return (
     <div className="App">
       <header className="App-header">
